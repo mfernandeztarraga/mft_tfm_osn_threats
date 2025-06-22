@@ -1,0 +1,3 @@
+# Deploying Simulodon in local using Ansible playbooks
+To run the Ansible playbook you need to have installed a compatible version of ansible and run a command like: ansible-playbook -i localhost, -c local -v deploy_simulodon_local.yaml. 
+This repository cointains a zip with a configured venv to execute the playbook, protected with a password. If you need access to its contents, please request the password to mario.fernandezt@um.es
